@@ -1,0 +1,73 @@
+/**
+ * Created by hosamzewain on 8/11/15.
+ */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html, body {
+    direction: ltr;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bring_right {
+    float: left;
+}
+
+.bring_left {
+    float: right;
+}
+
+.right_text {
+    text-align: left;
+}
+
+.left_text {
+    text-align: right;
+}
+
+.main_sidebar {
+    left: 0;
+}
+
+.main_container.main_menu_open {
+    margin-left: 350px;
+}
+
+.right_sidebar {
+    left: -350px !important;
+}
+
+.user_side_open {
+    margin-right: 300px;
+}
+
+.user_details {
+    right: 0;
+}
+
+.home_pass ul li {
+    text-align: left !important;
+}
+
+.close_user_details {
+    right: -300px;
+}
+
+.drop_btn > a::after {
+    border-left: 6px solid transparent;
+    border-right: unset !important;
+}
+
+/*.search_box .btn {*/
+    /*left: unset !important;*/
+    /*right: 0;*/
+/*}*/
+
+.main_sidebar_wrapper ul span {
+    margin: 0 10px 0 0;
+}
+.main_sidebar_wrapper ul span {
+    float: left !important;
+}
+.drop_main_menu::before {
+    right: 10px !important;
+}
